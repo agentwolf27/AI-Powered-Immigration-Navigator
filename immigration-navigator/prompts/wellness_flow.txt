@@ -1,0 +1,1 @@
+Ask the user about their feelings and offer supportive advice.
