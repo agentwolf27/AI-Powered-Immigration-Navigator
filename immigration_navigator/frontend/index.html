@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Immigration Navigator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container fade-in">
+    <h1>AI Immigration Navigator</h1>
+    <section>
+        <h2>Immigration Steps</h2>
+        <form id="immigration-form">
+            <input name="nationality" placeholder="Nationality" required>
+            <input name="current_visa" placeholder="Current Visa" required>
+            <input name="target_visa" placeholder="Target Visa" required>
+            <input name="occupation" placeholder="Occupation" required>
+            <button type="submit">Get Steps</button>
+        </form>
+        <pre id="immigration-result"></pre>
+    </section>
+
+    <section>
+        <h2>Fill Form I-130</h2>
+        <form id="form-fill">
+            <input name="name" placeholder="Name" required>
+            <input name="dob" placeholder="Date of Birth" required>
+            <input name="country" placeholder="Country" required>
+            <input name="relationship" placeholder="Relationship" required>
+            <button type="submit">Generate PDF</button>
+        </form>
+        <a id="pdf-link" href="#" download="form.pdf" style="display:none">Download Form</a>
+    </section>
+
+    <section>
+        <h2>Mental Wellness</h2>
+        <form id="wellness-form">
+            <input name="message" placeholder="How are you feeling?" required>
+            <button type="submit">Analyze</button>
+        </form>
+        <pre id="wellness-result"></pre>
+    </section>
+
+    <section>
+        <h2>Translate</h2>
+        <form id="translate-form">
+            <input name="text" placeholder="Text" required>
+            <input name="language" placeholder="Language (e.g., es)" required>
+            <button type="submit">Translate</button>
+        </form>
+        <pre id="translate-result"></pre>
+    </section>
+
+    <section>
+        <h2>Timeline</h2>
+        <button id="load-timeline">Load Timeline</button>
+        <pre id="timeline"></pre>
+    </section>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
