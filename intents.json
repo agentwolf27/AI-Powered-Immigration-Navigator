@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "name": "greet",
+      "samples_en": ["hello", "hi", "good morning", "good afternoon", "hey"],
+      "samples_es": ["hola", "buenos días", "buenas tardes", "qué tal"]
+    },
+    {
+      "name": "farewell",
+      "samples_en": ["goodbye", "bye", "see you later", "take care"],
+      "samples_es": ["adiós", "hasta luego", "nos vemos", "cuídate"]
+    },
+    {
+      "name": "check_visa_status",
+      "samples_en": ["check my visa status", "visa update", "what's happening with my visa application", "application status"],
+      "samples_es": ["verificar estado de mi visa", "actualización de visa", "qué pasa con mi solicitud de visa", "estado de la solicitud"]
+    },
+    {
+      "name": "ask_visa_types",
+      "samples_en": ["what visa types are there", "list visa options for US", "visa types for Canada"],
+      "samples_es": ["qué tipos de visa existen", "listar opciones de visa para US", "tipos de visa para Canadá"]
+    },
+    {
+      "name": "ask_mental_wellness",
+      "samples_en": ["how are you feeling", "are you okay", "is everything alright", "talk about feelings"],
+      "samples_es": ["cómo te sientes", "estás bien", "todo bien", "hablar de sentimientos"]
+    },
+    {
+      "name": "get_help_mental",
+      "samples_en": ["I need help", "I'm feeling down", "I'm stressed", "can I talk to someone"],
+      "samples_es": ["necesito ayuda", "me siento mal", "estoy estresado", "puedo hablar con alguien"]
+    }
+  ]
+}
